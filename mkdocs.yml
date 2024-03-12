@@ -1,0 +1,32 @@
+site_name: Přijímačky ČVUT FIT
+site_url: https://cvut-fit.github.io/prijimacky/
+site_author: Roubean1
+
+repo_name: cvut-fit/prijimacky
+repo_url: https://github.com/cvut-fit/prijimacky
+
+copyright: "&copy; 2023 - 2024 <a href=\"https://github.com/Roubean1\" target=\"_blank\">Roubean1</a>"
+
+theme:
+  name: material
+  language: cs
+  logo: assets/cvut.svg
+  favicon: assets/favicon.ico
+  palette:
+    primary: amber
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra:
+  generator: false
+extra_javascript:
+  - assets/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
